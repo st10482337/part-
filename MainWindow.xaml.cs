@@ -100,7 +100,7 @@ namespace part
         }
 
         private void TestDatabaseConnection()
-        {
+        {  
             try
             {
                 MessageBox.Show(part.Database.Database.ConnectionString);

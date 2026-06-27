@@ -2,12 +2,13 @@
      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
      Title="LockWise AI"
-     Width="1300"
+     Width="1300" 
 Height="800"
      WindowStartupLocation="CenterScreen"
      Background="MidnightBlue">
 
     <Grid>
+        
 
         <!-- HEADER -->
         <Grid Margin="15">
@@ -336,3 +337,4 @@ Height="800"
 
 </Window>
 
+     
