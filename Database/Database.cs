@@ -8,3 +8,4 @@ namespace part.Database
             "server=localhost;database=LockWiseDB;uid=root;pwd=vutlhariC01!;";
     }
 }
+ 
