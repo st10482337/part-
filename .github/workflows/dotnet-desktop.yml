@@ -24,7 +24,7 @@ jobs:
       uses: microsoft/setup-msbuild@v2
 
     - name: Restore dependencies
-      run: msbuild YOUR-SOLUTION.sln /t:Restore /p:Configuration=Release
+      run: msbuild part.sln /t:Restore /p:Configuration=Release
 
     - name: Build project
-      run: msbuild YOUR-SOLUTION.sln /p:Configuration=Release
+      run: msbuild part.sln /p:Configuration=Release
