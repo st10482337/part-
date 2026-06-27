@@ -27,7 +27,7 @@ namespace part.Database
                 cmd.Parameters.AddWithValue("@completed", task.Completed);
 
                 cmd.ExecuteNonQuery();
-            }
+            } 
         }
     }
 }
