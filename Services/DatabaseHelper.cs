@@ -12,4 +12,4 @@ namespace part.Database
             return new MySqlConnection(ConnectionString);
         }
     }
-}
+} 
